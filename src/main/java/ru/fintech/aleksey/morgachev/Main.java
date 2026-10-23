@@ -1,7 +1,21 @@
 package ru.fintech.aleksey.morgachev;
 
-public class Main {
-    public static void main(String[] args) {
+import ru.fintech.aleksey.morgachev.ui.MainWindow;
 
+import javax.swing.*;
+
+public class Main {
+
+    /**
+     * Запускает приложение.
+     *
+     * @param args Аргументы командной строки (пока не используются).
+     */
+    public static void main(String[] args) {
+            SwingUtilities.invokeLater(() -> {
+            MainWindow window = new MainWindow();
+            window.setVisible(true);
+            window.requestFocusInWindow(); // Устанавливаем фокус на окно
+        });
     }
 }
