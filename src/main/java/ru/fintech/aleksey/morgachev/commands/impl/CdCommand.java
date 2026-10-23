@@ -6,6 +6,10 @@ import ru.fintech.aleksey.morgachev.core.ShellContext;
 
 import java.util.Arrays;
 
+/**
+ * Заглушка команды cd. Выводит свое имя и аргументы.
+ * Проверяет наличие аргументов для имитации обработки ошибок.
+ */
 public class CdCommand implements ShellCommand {
 
     @Override

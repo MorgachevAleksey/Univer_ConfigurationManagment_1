@@ -3,6 +3,10 @@ package ru.fintech.aleksey.morgachev.core;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Класс-парсер для обработки ввода пользователя.
+ * Отвечает за разбиение строки на токены и раскрытие переменных окружения.
+ */
 public class CommandParser {
     /**
      * Разбивает входную строку на массив токенов (команда и аргументы),

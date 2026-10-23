@@ -11,6 +11,10 @@ import java.awt.*;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+/**
+ * Графический интерфейс пользователя (GUI) для эмулятора оболочки.
+ * Реализован на основе библиотеки Swing.
+ */
 public class MainWindow extends JFrame {
 
     private static final int WINDOW_WIDTH = 800;

@@ -1,5 +1,9 @@
 package ru.fintech.aleksey.morgachev.core;
 
+/**
+ * Класс контекста эмулятора.
+ * Хранит состояние оболочки (например, текущую директорию).
+ */
 public class ShellContext {
     private String currentDirectory = "/";
 

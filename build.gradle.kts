@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    application
 }
 
 group = "ru.fintech.aleksey.morgachev"
@@ -17,4 +18,8 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass.set("ru.fintech.aleksey.morgachev.Main")
 }

@@ -1,4 +1,3 @@
 @echo off
 echo Starting Shell Emulator...
 call gradlew.bat run
-pause

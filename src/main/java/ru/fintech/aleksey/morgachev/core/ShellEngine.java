@@ -7,6 +7,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Ядро эмулятора. Выступает в роли диспетчера (Invoker в паттерне "Команда").
+ * Хранит реестр доступных команд, обрабатывает ввод пользователя,
+ * вызывает парсер и выполняет соответствующую команду.
+ */
 public class ShellEngine {
     /** Контекст эмулятора (состояние). */
     private final ShellContext context;

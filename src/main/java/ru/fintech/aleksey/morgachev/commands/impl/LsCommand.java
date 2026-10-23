@@ -5,6 +5,9 @@ import ru.fintech.aleksey.morgachev.core.ShellContext;
 
 import java.util.Arrays;
 
+/**
+ * Заглушка команды ls. Выводит свое имя и переданные аргументы.
+ */
 public class LsCommand implements ShellCommand {
 
     @Override

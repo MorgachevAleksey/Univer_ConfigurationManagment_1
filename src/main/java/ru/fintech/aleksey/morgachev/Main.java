@@ -4,6 +4,9 @@ import ru.fintech.aleksey.morgachev.ui.MainWindow;
 
 import javax.swing.*;
 
+/**
+ * Главный класс приложения. Точка входа.
+ */
 public class Main {
 
     /**

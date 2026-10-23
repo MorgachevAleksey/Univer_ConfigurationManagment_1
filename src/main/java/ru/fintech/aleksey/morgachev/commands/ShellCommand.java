@@ -2,6 +2,9 @@ package ru.fintech.aleksey.morgachev.commands;
 
 import ru.fintech.aleksey.morgachev.core.ShellContext;
 
+/**
+ * Интерфейс для всех команд эмулятора (паттерн "Команда").
+ */
 public interface ShellCommand {
 
     /**
